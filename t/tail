@@ -321,6 +321,8 @@
                 this.showNotes(); break;
               case 51: // 3
                 this.switch3D(); break;
+              case 36: // Home
+                this.go(1); break;
             }
           },
           _touchStartX: 0,

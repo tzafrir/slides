@@ -149,7 +149,7 @@
       .slide.past {
         visibility: visible;
         display: block;
-        margin-left: -1400px;
+        margin-left: -1500px;
       }
       
       .slide.current {
@@ -161,7 +161,7 @@
       .slide.future {
         visibility: visible;
         display: block;
-        margin-left: 500px;
+        margin-left: 600px;
       }
       
       .slide.far-future {
@@ -272,14 +272,15 @@
         display: table-cell;
         vertical-align: middle;
         height: 700px;
-        width: 900px;
+        width: 880px;
       }
       
       pre {
         text-align: left;
         font-family: 'Droid Sans Mono', Courier;
         font-size: 80%;
-        padding: 10px 20px;
+        padding: 7px 14px;
+        margin: 13px 26px;
         background: rgba(255, 0, 0, 0.05);
         -webkit-border-radius: 8px;
         -khtml-border-radius: 8px;
