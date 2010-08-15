@@ -298,7 +298,7 @@
         font-size: 100%;
         margin-right: 10px;
         font-family: Helvetica;
-        padding: 3px;
+        padding: 6px;
       }
       input[type="range"] {
         width: 100%;

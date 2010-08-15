@@ -2,8 +2,23 @@
         <div class="slide"> 
           <section class="middle"> 
             <h2> 
-              1
-            </h2>
+              CSS & JavaScript
+            </h2><pre>&lt;script&gt;
+  function colorize() {
+    var paragraph = document.getElementById("not_red_yet");
+    paragraph.style.color = "red";
+  }
+&lt;/script&gt;
+&lt;p id="not_red_yet"&gt;&lt;em&gt;See beyond the color&lt;/em&gt;&lt;/p&gt;
+&lt;input type="button" value="Paint It Red" onclick="colorize()"/&gt;</pre>
+            <script>
+              function colorize() {
+                var paragraph = document.getElementById("not_red_yet");
+                paragraph.style.color = "red";
+              }
+            </script>
+            <p id="not_red_yet"><em>See beyond the color</em></p>
+            <input type="button" value="Paint It Red" onclick="colorize()"/>
           </section> 
         </div> 
  
