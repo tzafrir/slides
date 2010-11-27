@@ -22,8 +22,9 @@
 <!--
   Additional extensions and slides by Tzafrir Rehan (tzafrir@tzafrir.net), Aug 2010.
 -->
-<html manifest="cache.manifest"> 
-  <head> 
+<html manifest="cache.manifest"
+    xmlns:og="http://opengraphprotocol.org/schema/"> 
+  <head>
     <!--[if gte IE 9]>
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <![endif]--> 
@@ -32,7 +33,14 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1" />
     <![endif]--> 
  
-    <meta charset="utf-8" /> 
+    <meta charset="utf-8" />
+    <meta property="og:title" content="Scalable Join Processing on Very Large RDF Graphs"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="http://tzafrir.net/rdf/"/>
+    <meta property="og:site_name" content="Databases Seminar"/>
+    <meta property="og:description"
+          content="A novel method of performing joins on large scale RDF graphs"/>
+    <meta property="og:image" content="http://tzafrir.net/rdf/img/double_facepalm.jpg"/>
     <title>Scalable Join Processing on Very Large RDF Graphs</title> 
     <link href="http://fonts.googleapis.com/css?family=Droid+Sans|Droid+Sans+Mono" rel="stylesheet" type="text/css" /> 
  
