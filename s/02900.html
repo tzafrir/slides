@@ -1,0 +1,15 @@
+
+        <div class="slide">
+          <section class="middle">
+            <h2>
+              Implementation Preconditions
+            </h2>
+            <p>SIP as proposed in the current work can be implemented in any RDF engine that provides:</p>
+            <p><ul>
+              <li>Indexes on all S/P/O ordering combinations, built by B+ trees containing the triples directly, with a separate dictionary mapping identifiers to literals
+              <li>Merge joins are performed directly on the indexes, and pipelined
+              <li>An optimal or near-optimal join order chooser
+            </ul></p>
+          </section>
+        </div>
+
