@@ -23,7 +23,8 @@
   Additional extensions and slides by Tzafrir Rehan (tzafrir@tzafrir.net), Aug 2010.
 -->
 <html manifest="cache.manifest"
-    xmlns:og="http://opengraphprotocol.org/schema/"> 
+    xmlns:og="http://opengraphprotocol.org/schema/"
+    xmlns:fb="http://www.facebook.com/2008/fbml">
   <head>
     <!--[if gte IE 9]>
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -41,6 +42,7 @@
     <meta property="og:description"
           content="A novel method of performing joins on large scale RDF graphs"/>
     <meta property="og:image" content="http://tzafrir.net/rdf/img/double_facepalm.jpg"/>
+    <meta property="fb:admins" content="TzafrirR" />
     <title>Scalable Join Processing on Very Large RDF Graphs</title> 
     <link href="http://fonts.googleapis.com/css?family=Droid+Sans|Droid+Sans+Mono" rel="stylesheet" type="text/css" /> 
  
