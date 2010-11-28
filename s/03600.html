@@ -1,0 +1,18 @@
+
+        <div class="slide">
+          <section class="middle">
+            <h2>
+              Sideways Information Passing
+            </h2>
+            <h3>Implementation details</h3>
+            <p>Merge Joins and Index Scans:</p>
+            <p>These work on the B+ indexes. Checking if a triple should be skipped
+                too often results in a major CPU overhead, and in a significant
+                drop in L2 hit rate</p>
+            <p>The system only checks for skips when a new page is about to be
+                read into memory</p>
+            <p>The CPU overhead is once per page, which is amortized to nearly zero</p>
+            <p>The time saved by not reading whole pages is significant</p>
+          </section>
+        </div>
+
