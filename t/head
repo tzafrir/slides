@@ -438,6 +438,16 @@
         padding-left: 30px;
       }
       
+      td {
+        border: 1px solid black;
+        padding: 2px 10px;
+      }
+
+      table {
+        border: 1px solid #222;
+        margin-left: 30px;
+      }
+
     </style> 
     
   </head> 
