@@ -8,9 +8,10 @@
             <p>Consider the following query:</p>
 <pre>
   SELECT ?a WHERE {
-    ?a hasName "Bob".
+    ?a hasName "Robert".
     ?a hasGender "male".
     ?a receivedMedal "Purple Heart".
+    "Bob" nicknameOf ?a.
   }
 </pre>
           </section>
