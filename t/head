@@ -42,7 +42,7 @@
     <meta property="og:description"
           content="A novel method of performing joins on large scale RDF graphs"/>
     <meta property="og:image" content="http://tzafrir.net/rdf/img/double_facepalm.jpg"/>
-    <meta property="fb:admins" content="TzafrirR" />
+    <meta property="fb:admins" content="tzafrirr" />
     <title>Scalable Join Processing on Very Large RDF Graphs</title> 
     <link href="http://fonts.googleapis.com/css?family=Droid+Sans|Droid+Sans+Mono" rel="stylesheet" type="text/css" /> 
  
